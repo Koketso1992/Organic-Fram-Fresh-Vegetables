@@ -1,0 +1,6 @@
+nav {
+    height: 70px;
+    background: linear-gradient(rgb(46, 13, 233), rgb(29, 247, 255));
+    user-select: none;
+    cursor: none;
+  }
