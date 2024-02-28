@@ -67,3 +67,7 @@ nav ul li a:hover::after{
 contact{
   padding-left: 10px;
 }
+
+.form{
+  margin-left: 10px;
+}
