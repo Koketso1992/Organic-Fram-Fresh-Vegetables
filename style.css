@@ -42,7 +42,7 @@ nav ul li a::after{
  content: ''; 
  width: 0%;
  height: 3px;
- background: #ff66c4;
+ background:rgb(57, 247, 40);
  position:absolute;
  left: 0;
  bottom: -6px;
@@ -72,6 +72,36 @@ contact{
 .form{
   margin-left: 10px;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(90, 245, 97, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: rgb(24, 23, 23);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(18, 163, 49);
+  background-color: #14ca23;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
 /* .signup-button { */
   /* background-color: #4CAF50; */
   /* border: none; */
