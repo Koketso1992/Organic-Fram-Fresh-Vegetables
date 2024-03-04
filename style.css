@@ -90,8 +90,8 @@ contact{
   border: none;
   outline: 0;
   padding: 12px;
-  color: rgb(18, 163, 49);
-  background-color: #14ca23;
+  color: rgb(107, 117, 109);
+  background-color: #aab9ac;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -101,29 +101,6 @@ contact{
 .card button:hover {
   opacity: 0.7;
 }
-
-/* .signup-button { */
-  /* background-color: #4CAF50; */
-  /* border: none; */
-  /* color: white; */
-  /* padding: 15px 32px; */
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* display: inline-block; */
-  /* font-size: 16px; */
-  /* margin: 4px 2px; */
-  /* cursor: pointer; */
-/* } */
-/* .signup-form { */
-  /* display: none; */
-  /* position: absolute; */
-  /* top: 100%; */
-  /* left: 0; */
-  /* padding: 10px; */
-  /* background-color: #f9f9f9; */
-  /* border: 1px solid #ccc; */
-  /* border-radius: 5px; */
-/* } */
-/* .signup-container:hover .signup-button { */
-  /* display: none; */
-/* } */
+.container{
+  margin-bottom: 80;
+}
