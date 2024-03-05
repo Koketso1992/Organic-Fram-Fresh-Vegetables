@@ -96,8 +96,8 @@ contact{
   border: none;
   outline: 0;
   padding: 12px;
-  color: rgb(18, 163, 49);
-  background-color: #14ca23;
+  color: white;
+  background-color: rgb(14, 63, 22);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -109,58 +109,92 @@ contact{
   opacity: 0.7;
 }
 
-body{
-  margin: 0;
-  font-family: sans-serif;
-  background: rgb(199, 206, 202);
-};
-h5{
+/* Contact Page */
+.cont {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgb(199, 206, 202);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+h1 {
   text-align: center;
-  font-size: 30px;
-  margin: 0;
-  padding: 10px;
+  color: rgb(14, 63, 22);
 }
-a{
-text-decoration: none;
+form {
+  margin-top: 20px;
 }
-.Products{
-  display: flrx;
-  flex-wrap: wrap;
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(14, 63, 22);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: rgb(14, 63, 22);
+}
+p {
+  margin-top: 20px;
+  color: #666;
+  text-align: center;
+}
+footer {
+  background-color: rgb(8, 12, 9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15%;
+  margin-bottom: 20px;
 }
-.cards{
-  width: 20%;
-  margin: 15px;
-  box-sizing: border-box;
-  float: left;
-  text-align: center;
-  border-radius: 22px;
-  cursor: grab;
-  padding-top: 15px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.23);
-  transition: 4s;
-  background-color: #14ca23;
-  margin-top: 1%;
-} 
+iframe {
+  margin-top: 20px;
+}
 
-.cards{
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transition: translate(0px, -8px);
-}
-.img{
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-}
-.h5{
-  font-size: 26px;
-  text-align: center;
-}
-.footer{
-  display: flow-root;
-}
+/* .signup-button { */
+  /* background-color: #4CAF50; */
+  /* border: none; */
+  /* color: white; */
+  /* padding: 15px 32px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* display: inline-block; */
+  /* font-size: 16px; */
+  /* margin: 4px 2px; */
+  /* cursor: pointer; */
+/* } */
+/* .signup-form { */
+  /* display: none; */
+  /* position: absolute; */
+  /* top: 100%; */
+  /* left: 0; */
+  /* padding: 10px; */
+  /* background-color: #f9f9f9; */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 5px; */
+/* } */
+/* .signup-container:hover .signup-button { */
+  /* display: none; */
+/* } */
