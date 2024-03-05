@@ -189,95 +189,45 @@ iframe {
 .h1{
 
   margin-bottom: 0%;
-
-  color: rgb(24, 23, 23);;
-
+  color: rgb(24, 23, 23);
 }
 
 .h2{
-
   margin-bottom: 0%;
-
-  color: rgb(24, 23, 23);;
-
+  color: rgb(24, 23, 23);
 }
-
 .h3{
-
   margin-bottom: 0%;
-
-  color: rgb(24, 23, 23);;
-
+  color: rgb(24, 23, 23);
 }
-
 .span{
-
   margin-top: 0%;
-
-  color: rgb(24, 23, 23);;
-
- 
-
+  color: rgb(24, 23, 23);
 }
-
- 
-
 .container {
-
   display: grid;
-
   grid-template-columns: repeat(3,1fr);
-
   gap: 10px;
-
   justify-content: left;
-
   align-items: left;
-
 }
-
- 
-
- 
-
- 
-
 .Pro {
-
   box-shadow: 0 4px 8px 0 rgb(24, 23, 23);
-
   max-width: 300px;
-
   border-radius: 10px;
-
   background-color: rgba(155, 243, 194, 0.2);
-
- 
-
   /* margin: auto; */
-
   text-align: center;
-
   font-family: arial;
-
 }
-
- 
 
 .price {
-
   color: grey;
-
   font-size: 22px;
-
   padding-bottom: 10px;
-
 }
-
 .home-section{
-
   margin-bottom: 50px;
-
 }
 /* home */
 >>>>>>> 7e71152452e0512a8ec28400cfb0e7b4d2f819d3
