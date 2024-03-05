@@ -117,10 +117,11 @@ contact{
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
 }
 h1 {
   text-align: center;
-  color: #333;
+  color: rgb(14, 63, 22);
 }
 form {
   margin-top: 20px;
@@ -143,13 +144,13 @@ input[type="submit"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: rgb(14, 63, 22);
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 input[type="submit"]:hover {
-  background-color: #1b2025;
+  background-color: rgb(14, 63, 22);
 }
 p {
   margin-top: 20px;
