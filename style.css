@@ -116,34 +116,7 @@ margin-top: 5%;
 .welcome{
   text-align: center;
 }
- /* .h1 { */
-  /* margin-bottom: 0%%; */
  
-/* .signup-button { */
-  /* background-color: #4CAF50; */
-  /* border: none; */
-  /* color: white; */
-  /* padding: 15px 32px; */
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* display: inline-block; */
-  /* font-size: 16px; */
-  /* margin: 4px 2px; */
-  /* cursor: pointer; */
-/* } */
-/* .signup-form { */
-  /* display: none; */
-  /* position: absolute; */
-  /* top: 100%; */
-  /* left: 0; */
-  /* padding: 10px; */
-  /* background-color: #f9f9f9; */
-  /* border: 1px solid #ccc; */
-  /* border-radius: 5px; */
-/* } */
-/* .signup-container:hover .signup-button { */
-  /* display: none; */
-/* } */
  
  .header-text{
   margin-top: 20%;
@@ -180,29 +153,33 @@ contact{
   color: rgb(24, 23, 23);;
 
 }
-.p{
-  margin-top: 0%;
-   color: rgb(24, 23, 23);;
-}
+
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
   justify-content: left;
   align-items: left;
 }
 
-figure {
-  margin: 20px;
+
+
+.Pro {
+  box-shadow: 0 4px 8px 0 rgb(24, 23, 23);
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: rgba(155, 243, 194, 0.2);
+  
+  /* margin: auto; */
   text-align: center;
+  font-family: arial;
 }
 
-img {
-  width: 200px; 
-  height: auto;
-  border: 1px solid #ccc; 
-  border-radius: 5px;
+.price {
+  color: grey;
+  font-size: 22px;
+  padding-bottom: 10px;
 }
-
-figcaption {
-  margin-top: 30px;
-  font-style: normal;
+.home-section{
+  margin-bottom: 50px;
 }
