@@ -108,9 +108,70 @@ contact{
 .card button:hover {
   opacity: 0.7;
 }
- /* .h1 { */
-  /* margin-bottom: 0%%; */
- }
+
+/* Contact Page */
+.cont {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgb(199, 206, 202);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+form {
+  margin-top: 20px;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #1b2025;
+}
+p {
+  margin-top: 20px;
+  color: #666;
+  text-align: center;
+}
+footer {
+  background-color: rgb(8, 12, 9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+iframe {
+  margin-top: 20px;
+}
+
 /* .signup-button { */
   /* background-color: #4CAF50; */
   /* border: none; */
