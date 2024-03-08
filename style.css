@@ -221,3 +221,12 @@ iframe {
   margin-bottom: 50px;
 }
 /* home */
+.card {
+  box-shadow: 0 4px 8px 0 rgb(24, 23, 23);
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: rgba(155, 243, 194, 0.2);
+  /* margin: auto; */
+  text-align: center;
+  font-family: arial;
+}
