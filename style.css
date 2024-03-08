@@ -3,21 +3,27 @@
   padding: 0;
   box-sizing: border-box;
   line-height:1.5;
+  background-color: #b7bdad;
 }
 
 
-
+:root {
+  --footer-height: 150px; 
+}
 body{
-  background-color: rgb(199, 206, 202);
+  
   width:100;
   min-height:100vh
+  
 }
 
 
 
 .logo{
-  width: 140px;
+  margin-top: 30px;
+  width: 300px;
   padding-left: 10pxS;
+  height: 200px;
 }
 
 nav, .nav-links{
@@ -54,16 +60,6 @@ a:hover{
 
 
 
-.header-text{
-  margin-top: 20%;
-  font-size: 30px;
-}
-
-.header-text h1{
-  font-size: 60px;
-  margin-top: 20px;
-
-}
 
 contact{
   padding-left: 10px;
@@ -172,122 +168,53 @@ p {
   font-weight: bolder;
 }
 
-footer {
 
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-iframe {
-  margin-top: 20px;
-}
 
 /* home */
 
-.h1{
 
-  margin-bottom: 0%;
-  color: rgb(24, 23, 23);
-  text-align: left;
-}
-
-.h2{
-  margin-bottom: 0%;
-  color: rgb(24, 23, 23);
-}
-.h3{
-  margin-bottom: 0%;
-  color: rgb(24, 23, 23);
-}
-.span{
-  margin-top: 0%;
-  color: rgb(24, 23, 23);
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 10px;
-  justify-content: left;
-  align-items: left;
-}
-.Pro {
-  box-shadow: 0 4px 8px 0 rgb(24, 23, 23);
-  max-width: 300px;
-  border-radius: 10px;
-  background-color: rgba(155, 243, 194, 0.2);
-  /* margin: auto; */
-  text-align: center;
-  font-family: arial;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-  padding-bottom: 10px;
-}
-.home-section{
-  margin-bottom: 50px;
-}
 /* home */
 
 /* About Section */
 
+
 .about{
+  width: 100%;
   height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.about .main .img{
-width: 580px;
-max-width: 100px;
-height: auto;
-padding: 0 10px;
-}
-
-.all-text{
-  width: 600px;
-  max-width: 100%;
-  padding: 0 10px;
-}
-
-.main{
-  width: 1290px;
-  max-width: 95%;
-  margin: 0 auto;
+  padding-top: 40px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
 
-.all-text h4{
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: bolder;
-  margin-bottom: 10px;
-  padding-left: 10px;
+.about .about_image img{
+  width: 650px;
 }
 
-.all-text h1{
-  font-size: 1.2rem;
-  font-weight: bolder;
-  margin-bottom: 20px;
+.about .about_tag h1{
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
-.all-text p{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1rem;
-  line-height: 30px;
+.about .about_tag p{
+  width: 650px;
+  text-align: justify;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.about .about_tag .about_btn{
+  padding: 8px 20px;
+  background: hsl(125, 56%, 35%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about .about_tag .about_btn:hover{
+  border-bottom-left-radius: 8px;
 }
 /*Sphelele*/
 body{
@@ -341,4 +268,49 @@ text-decoration: none;
 .h5{
   font-size: 26px;
   text-align: center;
+}
+
+/*------------------footer----------------*/
+
+footer{
+  width: 100%;
+  background: hsl(125, 56%, 35%);
+}
+
+footer .footer_main{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+
+footer .footer_main .footer_tag{
+  margin: 0 auto;
+}
+
+footer .footer_main .footer_tag h1{
+  margin: 20px 0;
+}
+
+footer .footer_main .footer_tag p{
+  margin: 9px 0;
+  cursor: pointer;
+}
+
+footer .footer_main .footer_tag p i{
+  margin-right: 10px;
+}
+
+footer .end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+footer .end span{
+  color: hsl(125, 56%, 35%);
+}
+
+footer .end span i{
+  margin: 0 10px;
 }
