@@ -282,3 +282,56 @@ padding: 0 10px;
   font-size: 1rem;
   line-height: 30px;
 }
+/*Sphelele*/
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background: rgb(199, 206, 202);
+};
+h5{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+}
+a{
+text-decoration: none;
+}
+.Products{
+  display: flrx;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.cards{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 22px;
+  cursor: grab;
+  padding-top: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.23);
+  transition: 4s;
+  background-color: #edf1ed;
+  margin-top: 1%;
+} 
+
+.cards{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: translate(0px, -8px);
+}
+.img{
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.h5{
+  font-size: 26px;
+  text-align: center;
+}
