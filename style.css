@@ -1,60 +1,53 @@
-#header{
-  width: 100%;
-  height: 100vh;
-  /* background-image: url(images/back-image.jpg); */
-  background-size: 100%; 
-  background-position: right;
-  background-repeat: no-repeat;
+*{
+  margin: 0;
+  padding: 0;
 }
-.container{
-  padding: 10px 10%
-}
+
+
+
 body{
   background-color: rgb(199, 206, 202);
 }
 
-nav{
-  display: flex;
-  align-items:self-end;
-  justify-content: space-between;
-  flex-wrap: wrap;
 
-}
 
 .logo{
   width: 140px;
   padding-left: 10pxS;
 }
-
-nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
+nav, .nav-links{
+display: flex;
 }
 
-nav ul li a{
+nav{
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links{
+ gap: 2rem;
+ list-style: none;
+ font-size: 1rem;
+}
+
+a{
   color:rgb(14, 95, 24);
   text-decoration: none;
-  font-size: 20px;
-  position: relative;
+  text-decoration-color: none;
   font-weight: bolder;
 }
 
-nav ul li a::after{
- content: ''; 
- width: 0%;
- height: 3px;
- background:rgb(4, 58, 11);
- position:absolute;
- left: 0;
- bottom: -6px;
- transition: 0.5s;
+a:hover{
+  color: rgb(4, 58, 11);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color:  rgb(4, 58, 11);
 }
 
-nav ul li a:hover::after{
-  width: 100%;
 
-}
 
 .header-text{
   margin-top: 20%;
