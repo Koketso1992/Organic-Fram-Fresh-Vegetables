@@ -1,12 +1,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  line-height:1.5;
 }
 
 
 
 body{
   background-color: rgb(199, 206, 202);
+  width:100;
+  min-height:100vh
 }
 
 
@@ -15,6 +19,7 @@ body{
   width: 140px;
   padding-left: 10pxS;
 }
+
 nav, .nav-links{
 display: flex;
 }
@@ -158,6 +163,7 @@ p {
   margin-top: 20px;
   color: rgb(14, 63, 22);
   text-align: center;
+  font-weight: bolder;
 }
 footer {
 
@@ -181,6 +187,7 @@ iframe {
 
   margin-bottom: 0%;
   color: rgb(24, 23, 23);
+  text-align: left;
 }
 
 .h2{
@@ -221,22 +228,110 @@ iframe {
   margin-bottom: 50px;
 }
 /* home */
-.card {
-  box-shadow: 0 4px 8px 0 rgb(24, 23, 23);
-  max-width: 300px;
-  border-radius: 10px;
-  background-color: rgba(155, 243, 194, 0.2);
-  /* margin: auto; */
-  text-align: center;
-  font-family: arial;
+
+/* About Section */
+
+.about{
+  height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-/*Sphelele Products here*/
-.body{
+.about .main .img{
+width: 580px;
+max-width: 100px;
+height: auto;
+padding: 0 10px;
+}
+
+.all-text{
+  width: 600px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.main{
+  width: 1290px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all-text h4{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.all-text h1{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.all-text p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 30px;
+}
+/*Sphelele*/
+body{
   margin: 0;
   font-family: sans-serif;
+  background: rgb(199, 206, 202);
+};
+h5{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
 }
+a{
+text-decoration: none;
+}
+.Products{
+  display: flrx;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.cards{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 22px;
+  cursor: grab;
+  padding-top: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.23);
+  transition: 4s;
+  background-color: #edf1ed;
+  margin-top: 1%;
+} 
 
-img{
-  border-radius: 8px;
+.cards{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: translate(0px, -8px);
+}
+.img{
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.h5{
+  font-size: 26px;
+  text-align: center;
 }
