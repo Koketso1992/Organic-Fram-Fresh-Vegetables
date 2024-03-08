@@ -1,12 +1,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  line-height:1.5;
 }
 
 
 
 body{
   background-color: rgb(199, 206, 202);
+  width:100;
+  min-height:100vh
 }
 
 
@@ -15,6 +19,7 @@ body{
   width: 140px;
   padding-left: 10pxS;
 }
+
 nav, .nav-links{
 display: flex;
 }
@@ -223,3 +228,57 @@ iframe {
   margin-bottom: 50px;
 }
 /* home */
+
+/* About Section */
+
+.about{
+  height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.about .main .img{
+width: 580px;
+max-width: 100px;
+height: auto;
+padding: 0 10px;
+}
+
+.all-text{
+  width: 600px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.main{
+  width: 1290px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all-text h4{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.all-text h1{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.all-text p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 30px;
+}
