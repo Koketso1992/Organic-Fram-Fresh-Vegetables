@@ -117,11 +117,10 @@ contact{
 /* Contact Page(Sandile) */
 .cont {
   max-width: 600px;
-  max-height: 5000px;
   margin: 20px auto;
   background-color: rgb(151, 160, 151);
-  padding: 10px;
-  border-radius: 1px;
+  padding: 20px;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
@@ -131,7 +130,7 @@ h1 {
   color: rgb(14, 63, 22);
 }
 form {
-  margin-top: 10px;
+  margin-top: 20px;
   color:rgb(14, 63, 22);
 }
 label {
